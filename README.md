@@ -6,11 +6,16 @@ Usage:
 
 ### To generate the auth URI you can redirect your user to (will end up on the login system on NICCI Profile)
 
+`go get github.com/newestindustry/nicci-sdk-golang/profile`
+
 ```go
 package main
 
 import (
     "github.com/newestindustry/nicci-sdk-golang/profile"
+    "fmt"
+    "os"
+    "log"
 )
 
 func main() {
@@ -38,6 +43,9 @@ package main
 
 import (
     "github.com/newestindustry/nicci-sdk-golang/profile"
+    "fmt"
+    "os"
+    "log"
 )
 
 func main() {
