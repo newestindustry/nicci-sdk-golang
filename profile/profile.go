@@ -27,7 +27,7 @@ func (c *ClientConfig) GenerateAuthURI(authURL string, scope []string) (*url.URL
 		return nil, errors.New("Host cannot be empty")
 	}
 
-	authURI.Path = "/token"
+	authURI.Path = "/auth"
 
 	params := url.Values{}
 
